@@ -2,7 +2,7 @@
   "name": "react-setup",
   "version": "1.0.0",
   "description": "React babel webpack build chain",
-  "main": ".client/index.js",
+  "main": "./client/index.jsx",
   "repository": "git@github.com:sune101/react-setup.git",
   "author": "sune <roger@svio.se>",
   "license": "MIT",
