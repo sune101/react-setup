@@ -4,5 +4,9 @@
 {
     "presets":[
         "es2015", "react"
-    ]
+    ],
+  
+  "plugins": [],
+  "sourceMaps": true // must be true react-native/packager/transformer using with node-module-debug
+  // because of some bugs from vscode-node-debug & vscode-react-native, "sourceMaps" cannot be "inline" or "both"
 }
